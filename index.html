@@ -1,87 +1,481 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Power Ocean Band</title>
-        <link href="../css/band.css" rel="stylesheet" type="text/css" />
-    </head>
-    
-    <div style="position: absolute"></div>
+   <head>
+      <!DOCTYPE html>
+      <title>Power Ocean Band</title>
+      <link rel="stylesheet" href="POBCSS.css">
+      <link rel ="stylesheet" 
+			
 
-    <body class="example">
-        <div class="scrollbar">id="style-6"></div>
-        <div class="force-overflow">
-            <div class="oceanbackground" class="image1"></div>
-            <div class="Introduction" class="image2"></div>
-            <div class="EthanName" class="image3"></div>
-            <div class="DrumBackgroundShape" class="image4"></div>
-            <div class="Drum" class="image5"></div>
-            <div class="TextBackground" class="image6"></div>
+	
+			
+	   href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+	   integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	   
+	   <script src="https://kit.fontawesome.com/b878367f8d.js" crossorigin="anonymous"></script>
+	   
+	   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+	   
+	   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" 
+	   integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+	   
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" 
+	   integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+	   
+	   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	   
+   </head>
+	
+   <body>
+      <div class="overflow"></div>
+	   
+	   
+      <!-----Navigation Bar----->
+      <section id="nav-bar">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#"><img src="../Power Ocean Band/images/logo.png"></a>
+               <a class="navbar-brand" href="#"><img src="../Power%20Ocean%20Band/images/power%20ocean%20band%20text.PNG"></a> 
+               <button class="navbar-toggler" type="button"
+                  data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false"
+                  aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>  
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">BIO</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#services">FAVOURITE ARTISTS</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#spotify">CROSSING OVER ALBUM</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#tour">2022 TOUR</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT US</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </section>
+	   
+	   
+      <!--------Slider-------->
+      <section id="slider"></section>
+      <div id="headerSlider" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-indicators">
+            <button type="button" data-bs-target="#headerSlider" data-bs-slide-to="0" 
+               class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#headerSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#headerSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+         </div>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="../Power%20Ocean%20Band/images/evh%20wolfgang%20test.jpg" class="evhwolfgang">
+               <div class="carousel-caption">
+                  <h5>Welcome To Power Ocean Band</h5>
+                  <p>Press > Next To See Our Band Members!</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="../Power%20Ocean%20Band/images/EthanRogersIntroduction.PNG" class="d-block img-fluid">
+               <div class="carousel-caption">
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="../Power%20Ocean%20Band/images/LachlanPetersIntroduction.PNG" class="d-block img-fluid">
+               <div class="carousel-caption">
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#headerSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#headerSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </button>    
+         </div>
+      </div>
+	   
+	   
+      <!-------About----->
+      <section id="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-7">
+                  <h2>Artists We Are Inspired By:</h2>
+                  <div class="about-content">   
+                     Click Find Out More To See Inspiring Musicians We Look Up To!
+                  </div>
+                   <div class="findout">
+                   <button type="button" class="btn btn-info"><a href="#services">
+					   Find Out More ⬇️</a></button></div>
+                      
+                       
+                  <div class="col-lg-10 md-10">
+                     <img src="../Power%20Ocean%20Band/images/evhplaying.jpg" class="EVHPlaying" alt="...">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+	   
+	   
+      <!--------Services----->
+      <section id="services">
+         <div class="container">
+            <img src="../Power%20Ocean%20Band/images/FavouriteArtistsImage.PNG" class="Favourite">
+            <div class="row services">
+               <div class="servicing col-md-12 text-center ">
+                  <div class="icon">
+                     <i class="fas fa-guitar fa-5x"></i>
+				   </div>
+				   <div class="servicing">
+                  <h2>Artists That Have Inspired Us, And Motivated Us To Make Music As A Duo ⬇️</h2>
+					   </div>
+               </div>
+            </div>
+         </div>
+		  
+		  
+         <!--------Inspiration Cards------->
+         <section id="team">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-3 profile-pic text-center">
+                     <div class="img-box">
+                        <img src="../power%20ocean%20band/images/brian%20may%20image.jpg" class="img-responsive">
+                     </div>
+                     <h2>Brian May</h2>
+                     <h3>Lead Guitarist for Queen</h3>
+                     <p>Brian Harold May CBE is an English musician, singer, songwriter, record producer, author, astrophysicist, 
+                        and university administrator. 
+                        He is the lead guitarist of the rock band Queen. 
+                        May was a co-founder of Queen with lead singer Freddie Mercury and drummer Roger Taylor.
+                     </p>
+                  </div>
+                  <div class="col-md-3 profile-pic text-center">
+                     <div class="img-box">
+                        <img src="../power ocean band/images/evh%20black%20guitar%20image.jpg" class="img-responsive">
+                     </div>
+                     <h2>Eddie Van Halen</h2>
+                     <h3>Lead Guitarist for Van Halen</h3>
+                     <p>Edward Lodewijk Van Halen, was a Dutch-born American musician and songwriter. 
+                        He was the main songwriter and guitarist of the American rock band Van Halen, which he co-founded in 1972 with his brother, 
+                        drummer Alex Van Halen, bassist Mark Stone, and singer David Lee Roth. 
+                     </p>
+                  </div>
+                  <div class="col-md-3 profile-pic text-center">
+                     <div class="img-box">
+                        <img src="../power ocean band/images/john%20mayer%20background.jpg" class="img-responsive">
+                     </div>
+                     <h2>John Mayer</h2>
+                     <h3>Solo Guitarist</h3>
+                     <p>John Mayer, in full John Clayton Mayer, (born October 16, 1977, Bridgeport, Connecticut, U.S.), 
+                        American singer, songwriter, and guitarist whose melodic, 
+                        often soft rock earned him a wide audience and a number of Grammy Awards in the early 21st century.
+                     </p>
+                  </div>
+                  <div class="col-md-3 profile-pic text-center">
+                     <div class="img-box">
+                        <img src="../power%20ocean%20band/images/matt%20bellamy%20background.jpg" class="img-responsive">
+                     </div>
+                     <h2>Matt Bellamy</h2>
+                     <h3>Lead Guitarist for Muse</h3>
+                     <p>Matthew James Bellamy (born 9 June 1978) is an English singer, musician, and songwriter. 
+                        He is the lead vocalist, guitarist, pianist, and primary songwriter of the rock band Muse.
+                        He is recognised for his eccentric stage persona, wide tenor vocal range and musicianship.
+                     </p>
+                  </div>
+                  <div class="col-md-3 offset-sm-0 srv-guitar text-center">
+                     <div class="img-box">
+                        <img src="../power%20ocean%20band/images/srv%20background.jpg" class="img-responsive">
+                     </div>
+                     <h2>Stevie Ray Vaughan</h2>
+                     <h3>Double Trouble Blues Gunslinger Guitarist</h3>
+                     <p>Stephen Ray Vaughan (October 3, 1954 – August 27, 1990) was an American musician, singer, songwriter, and record producer, 
+                        best known as the guitarist and frontman of the blues rock band Double Trouble. 
+                        His recognizable tone and mind-blowing guitar technique and skill landed him as one of the best blues guitarists alive. 
+                     </p>
+                  </div>
+                  <div class="col-md-3 offset-sm-0 gilmour-guitar text-center">
+                     <div class="img-box">
+                        <img src="../power ocean band/images/david%20gilmour%20background.jpg" class="img-gilmour">
+                     </div>
+                     <h2>David Gilmour</h2>
+                     <h3>Guitarist for Pink Floyd</h3>
+                     <p>David Gilmour gained international fame for his incisive, atmospheric guitar work and vocals with Pink Floyd, 
+                        and eventually became the leader of the group during their late period, 
+                        as he pursued a successful solo career and worked with some of the most respected names in British rock.
+                     </p>
+                   </div>
+                      <div class="col-md-3 offset-sm-12 mark-guitar text-center">
+                     <div class="img-box">
+                        <img src="../power%20ocean%20band/images/mark knopfler.png" class="img-mark">
+                     </div>
+                     <h2>Mark Knopfler</h2>
+                     <h3>Lead Guitarist For Dire Straits</h3>
+                     <p>Mark Freuder Knopfler OBE is a British singer-songwriter, guitarist, and record producer. 
+                         He became known as the lead guitarist, singer and songwriter of the rock band Dire Straits. 
+                         He pursued a solo career after leaving the band in 1987. 
+                     </p>
+                  </div>
+                    <div class="col-md-3 offset-sm-12 keith-guitar text-center">
+                     <div class="img-box">
+                        <img src="../power%20ocean%20band/images/keith richards.png" class="img-keith">
+                     </div>
+                     <h2>Keith Richards</h2>
+                     <h3>Co-Founder, Guitarist, Secondary vocalist, And Co-Principal Songwriter Of The Rolling Stones</h3>
+                        <p> Keith Richards (born 18 December 1943), often referred to during the 1960s and 1970s as Keith Richard, 
+                            is an English musician, singer, and songwriter, who has achieved international fame as the co-founder, guitarist, 
+                            secondary vocalist, and co-principal songwriter of the Rolling Stones. </p>
+                  </div>
+                  </div>
+               </div>
+         </section>
+		  
+		  
+         <!-----------Album Cover & Media Links------>
+         <section id="spotify">
+            <div class="container">
+               <div class="text">
+                  <h2>Crossing Over Out Now!</h2>
+               </div>
+               <div class="Album">
+                  <img src="../Power Ocean Band/images/POB%20Album%20Cover.jpg" class="Album">
+               </div>
+               <div class="POBLinks gap-2">
+                 <button class="btn btn-success"><a href="https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K" 
+                     type="button" target="_blank"><img src="../power ocean band/images/spotify logo.png"></a></button>
+                  <button class="btn applemusic"><a href="https://music.apple.com/us/artist/van-halen/166529" 
+                     type="button" target="_blank"><img src="../power ocean band/images/apple music.png"></a></button>
+                  <button class="btn itunes"><a href="https://music.apple.com/us/artist/van-halen/166529" 
+                     type="button" target="_blank"><img src="../power ocean band/images/itunes.png"></a></button>
+                  <button class="btn amazonmusic"><a href="https://www.amazon.com/Van-Halen/e/B000AQU37Y" 
+                     type="button" target="_blank"><img src="../power ocean band/images/amazonmusic.png"></a></button>
+               </div>
+            </div>
+         </section>
+	   
+         
+       
+	   
+       <!---------------Tour Dates------------->
 
-            <div class="LachlanLogo" class="image7"></div>
+   
+<section>
+	<section id="tour">
+ <div class="event-container">
+      <h3 class="year">Power Ocean Band | Tour Dates</h3>
+
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">10</div>
+            <div class="month">Nov</div>
+          </div>
         </div>
 
-        <div class="MyBackground" class="image8"></div>
+        <div class="event-right">
+          <h3 class="event-title">NEW YORK</h3>
 
-        <div class="LachlanText" class="image9"></div>
-        <div class="GuitarBanner" class="image10"></div>
-        <div class="BrianMay" class="image11"></div>
-        <div class="graysecondbackground" class="image12"></div>
-        <div class="FavouriteArtistImage" class="image13"></div>
-        <div class="ArtistText" class="image14"></div>
-        <div class="TurtleBackground" class="image15"></div>
-        <div class="OceanBackground" class="image15"></div>
-        <div class="MarbleBackground" class="image16"></div>
-        <div class="OceanCircle" class="image17"></div>
+          <div class="event-description">
+            MADISON SQUARE GARDEN
+          </div>
 
-        <div class="BrianMayBox" class="image18"></div>
-        <div class="BrianMayImage" class="image19"></div>
-        <div class="EVHBox" class="image20"></div>
-        <div class="EVHImage" class="image21"></div>
-        <div class="SRVBox" class="image22"></div>
-        <div class="SRVImage" class="image23"></div>
-        <div class="JohnMayerBox" class="image24"></div>
-        <div class="JohnMayerImage" class="image25"></div>
-        <div class="MattBellamyBox" class="image26"></div>
-        <div class="MattBellamyImage" class="image27"></div>
-        <div class="DavidGilmourBox" class="image28"></div>
-        <div class="DavidGilmourImage" class="image29"></div>
+          <div class="event-timing">
+            <img src="images/time.png"><a href="https://www.ticketmaster.co.nz/guns-n-roses-dunedin-21-11-2021/event/2400596C83EC131D" 
+				 target="_blank" > Book Tickets </a>
+          </div>
+        </div>
+      </div>
 
-        <div class="brianmayimage" class="image30"></div>
-        <div class="MusicAndSpotifyBanner" class="image30"></div>
-        <div class="OurMusic" class="image31"></div>
-        <div class="Spotify" class="image32"><a href="https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K"></a></div>
-        <div class="AlbumCover" class="image33"></div>
-        <div class="LayoutWhite" class="image34"></div>
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">20</div>
+            <div class="month">Dec</div>
+          </div>
+        </div>
 
-        <header>
-            <ul class="nav">
-                <li>
-                    <a class="navbar" href="#">Home |</a>
-                </li>
-                <li> 
-                    <a class="navbar" href="#">Bio |</a>
-                </li>
-                <li>
-                    <a class="navbar" href="#">| Favourite Artists |</a>
-                </li>
-                <li>
-                    <a class="navbar" href="#">Spotify |</a>
-                </li>
-                <li>
-                    <a class="navbar" href="#">2022 Tour |</a>
-                </li>
-                <li>
-                    <a class="navbar" href="#">Contact Us |</a>
-                </li>
-            </ul>
+        <div class="event-right">
+          <h3 class="event-title">San Francisco</h3>
 
-            <div class="logo"><img alt="logo" height="85" src="../images/logo.png" width="75" /></div>
-            <div class="pob"><img alt="pob" height="50" src="../images/power%20ocean%20band%20text.PNG" width="320" /></div>
-        </header>
+          <div class="event-description">
+                The Cow Palace
+          </div>
 
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript"></script>
-        <script></script>
-    </body>
+          <div class="event-timing">
+            <img src="images/time.png"><a href="https://www.ticketmaster.co.nz/guns-n-roses-dunedin-21-11-2021/event/2400596C83EC131D" 
+				 target="_blank" > Book Tickets </a>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="year">2022</h3>
+
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">8</div>
+            <div class="month">Jan</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title">Indonesia</h3>
+
+          <div class="event-description">
+            Hammersonic Music Festival 
+          </div>
+
+          <div class="event-timing">
+            <img src="images/time.png"><a href="https://www.ticketmaster.co.nz/guns-n-roses-dunedin-21-11-2021/event/2400596C83EC131D" 
+				 target="_blank" > Book Tickets </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">9</div>
+            <div class="month">Mar</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title">Japan</h3>
+
+          <div class="event-description">
+            Aichi Prefectural Gymnasium in Nagoya
+          </div>
+
+          <div class="event-timing">
+            <img src="images/time.png"><a href="https://www.ticketmaster.co.nz/guns-n-roses-dunedin-21-11-2021/event/2400596C83EC131D" 
+				 target="_blank" > Book Tickets </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">4</div>
+            <div class="month">Apr</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title">Australia</h3>
+
+          <div class="event-description">
+            Kangaroo Boxing Concert Centre Digeridoo 
+          </div>
+
+          <div class="event-timing">
+            
+			  <img src="images/time.png"><a href="https://www.ticketmaster.co.nz/guns-n-roses-dunedin-21-11-2021/event/2400596C83EC131D" 
+				 target="_blank" > Book Tickets </a>
+			 
+			</div>
+			  
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">8</div>
+            <div class="month">Jun</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title">New Zealand</h3>
+
+          <div class="event-description">
+           ANZ Stadium
+          </div>
+
+          <div class="event-timing">
+            <img src="images/time.png"><a href="https://www.ticketmaster.co.nz/guns-n-roses-dunedin-21-11-2021/event/2400596C83EC131D" 
+				 target="_blank" > Book Tickets </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+	   
+	   <!------------Contact Us------->
+
+<section id="contact">
+<div class="hero">
+	
+	<form>
+		
+		<div class="row">
+		<div class="input-group">
+	     <input type="text" id="name" required>
+		<label for="Name"><i class="fas fa-user"></i> Your Name</label>
+			</div>
+		<div class="input-group col-md-offset-12">
+	     <input type="text" id="number" required>
+		<label for="Number"><i class="fas fa-phone"></i> Phone No.</label>
+			</div>
+		</div>
+	
+		<div class="input-group">
+	     <input type="text" id="email" required>
+		<label for="Email"><i class="far fa-envelope"></i> Email Id.</label>
+			</div>
+		<div class="input-group">
+	     <textarea id="message" rows="8" required></textarea>
+		<label for="Message"><i class="fas fa-comments"></i> Your Message</label>
+			</div>
+		<button type="submit"> SUBMIT <i class="fas fa-paper-plane"></i></button>
+	</form>
+	
+	
+	<div class="col-md-6 contact-info">	
+				<div class="follow"><b> Band Manager: </b><i class="fa fa-map-marker"></i> John G. Smith</div>
+		
+				<div class="follow"><b> Company Phone: </b><i class="fa fa-phone"></i> +1 187 187871 </div>
+		
+				<div class="follow"><b> Email: </b><i class="fas fa-envelope"></i> PowerOceanBand@gmail.com </div>
+				
+				<div class="follow"><label><b>Social Media:</b></label> 
+					<a href="#"><i class="fab fa-facebook"></i></a>
+				    <a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-google-plus"></i></a>
+		       </div>
+	
+<div class="contactus">
+	<h2>Contact Us</h2>
+	</div>
+	
+	
+	
+	
+	</div>
+	</div>
+</section>
+	 </section>
+	   </section>
+	   <!-----you reached the end hahahahahahaha this website took me like years to make------>
+</body>
 </html>
